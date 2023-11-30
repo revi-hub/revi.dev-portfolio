@@ -39,7 +39,9 @@
     /* Hero section styles */
     .hero-container{
         height: 850px;
+        width: 100vw;
         margin-top: 50px;
+        border-bottom: solid black 1px;
     }
 
     .hero-container--text-wrapper{
