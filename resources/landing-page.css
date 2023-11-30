@@ -15,6 +15,7 @@
         display: flex;
     }
 
+    /* Header navigation styles */
     .header-landing {
         flex-flow: row-reverse;
     }
@@ -33,4 +34,30 @@
 
     .header-landing--link:active {
         text-decoration: underline;
+    }
+
+    /* Hero section styles */
+    .hero-container--text-wrapper{
+        flex-flow: column;
+        margin-left: 15vw;
+    }
+
+    .hero-container--h1, .hero-container--h2{
+        color: var(--clr-primary);
+    }
+
+    .hero-container--h1{
+        font-size: 64px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        width: 284px;
+    }
+
+    .text-variation__regular{
+        font-weight: 500;
+    }
+
+    .hero-container--h2{
+        font-size: 40px;
+        font-weight: 500;
     }
