@@ -66,3 +66,17 @@
         font-size: 40px;
         font-weight: 500;
     }
+
+    .hero-container--3D-box{
+        left: 40vw;
+        overflow: visible;
+        position: absolute;
+        top: 100px;
+        z-index: 1;
+    }
+
+    .hero-container--3D-viewer{
+        height: 800px;
+        overflow: visible;
+        width: 900px;
+    }
