@@ -1,21 +1,36 @@
     /* Reset */
-*{
-    box-sizing: border-box;
-}
+    * {
+        box-sizing: border-box;
+    }
 
-    /* Variables */ 
-:root{
-    --clr-primary: #633F08;
-}
+    /* Variables */
+    :root {
+        --clr-primary: #633F08;
+    }
+
     /* Definitions */
-.header-landing, .hero-container, .hero-container--text-box{
-    display: flex;
-}
+    .header-landing,
+    .hero-container,
+    .hero-container--text-wrapper {
+        display: flex;
+    }
 
-.header-landing{
-    flex-flow: row-reverse;
-}
+    .header-landing {
+        flex-flow: row-reverse;
+    }
 
+    .header-landing--nav {
+        margin: 36px 10vw;
+    }
 
+    .header-landing--link,
+    .header-landing--link:visited {
+        color: var(--clr-primary);
+        font-size: 24px;
+        letter-spacing: 1.2px;
+        text-decoration: none;
+    }
 
-
+    .header-landing--link:active {
+        text-decoration: underline;
+    }
