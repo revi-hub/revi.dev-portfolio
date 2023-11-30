@@ -37,6 +37,11 @@
     }
 
     /* Hero section styles */
+    .hero-container{
+        height: 850px;
+        margin-top: 50px;
+    }
+
     .hero-container--text-wrapper{
         flex-flow: column;
         margin-left: 15vw;
