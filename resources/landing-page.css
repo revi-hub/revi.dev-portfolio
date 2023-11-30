@@ -1,0 +1,21 @@
+    /* Reset */
+*{
+    box-sizing: border-box;
+}
+
+    /* Variables */ 
+:root{
+    --clr-primary: #633F08;
+}
+    /* Definitions */
+.header-landing, .hero-container, .hero-container--text-box{
+    display: flex;
+}
+
+.header-landing{
+    flex-flow: row-reverse;
+}
+
+
+
+
